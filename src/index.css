@@ -9,7 +9,7 @@ body {
   font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(#29251c, #2c2306);
+  background: white;
   color: #d9e2f1;
   min-height: 100vh;
 }
@@ -28,11 +28,10 @@ body {
 }
 
 #main-header #title img {
-  width: 4rem;
-  height: 4rem;
+  width: 10rem;
+  height: 6rem;
   object-fit: contain;
-  border-radius: 50%;
-  border: 2px solid #ffc404;
+
 }
 
 #main-header button {

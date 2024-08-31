@@ -22,14 +22,14 @@ export default function Cart() {
 
     return(
         <Modal className="cart" onClose={userProgressCtx.ctx === 'cart'?handleCloseCart:null} open={userProgressCtx.progress === 'cart'}>
-            <h2>Your Cart</h2>
+            <h2>Vaša korpa</h2>
             <ul>
                 {cartCtx.items.map((item) => <CartItem key={item.id} name={item.name} quantity={item.quantity} price={item.price} onIncrease={()=>cartCtx.addItem(item)} onDecrease={()=>cartCtx.removeItem(item.id)} />)}
             </ul>
             <p className="cart-total">{currencyFormatter.format(cartTotal)}</p>
             <p className="modal-actions">
-                <Button onClick={handleCloseCart} textOnly>Close</Button>
-                {cartCtx.items.length >0 && (<Button onClick={handleGoToCheckout}>Go to Checkout</Button>)}
+                <Button onClick={handleCloseCart} textOnly>Zatvori</Button>
+                {cartCtx.items.length >0 && (<Button onClick={handleGoToCheckout}>Idi na Plaćanje</Button>)}
             </p>
         </Modal>
     );

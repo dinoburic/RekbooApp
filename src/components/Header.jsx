@@ -3,6 +3,7 @@ import logo from '../assets/logo.png'
 import Button from './UI/Button.jsx';
 import CartContext from '../store/CartContext.jsx';
 import UserProgressContext from '../store/UserProgressContext.jsx';
+import cartImage from '../assets/cart.png'
 
 export default function Header() {
    const cartCtx= useContext(CartContext);
@@ -22,7 +23,9 @@ export default function Header() {
                 <img src={logo} alt='Rekboo logo' />
             </div>
             <nav>
-                <Button onClick={handleShowCart} textOnly>Cart ({totalCartItems})</Button>
+                <Button onClick={handleShowCart} textOnly><img style={{
+                    width: '20px', 'margin-right':'10px'
+                }} src={cartImage}/>Korpa ({totalCartItems})</Button>
             </nav>
         </header>
     );

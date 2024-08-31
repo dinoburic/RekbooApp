@@ -15,6 +15,7 @@ With the flexible cart functionality, users can easily add meals to their cart a
 
 ## Checkout
 When ready to place an order, users are guided through a straightforward checkout process, where they are required to input their personal information, such as name, address, and contact info.
-https://github.com/user-attachments/assets/2ff13718-478c-4981-b8f9-6eb9737d03a2
+![Recording2024-08-31192053-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/042039ac-3f81-426d-bb18-cc44c327c261)
+
 
 The checkout form includes validation to ensure that all necessary fields are completed with valid data, providing a smooth and error-free experience. Upon submitting the order, an HTTP request is sent to the backend, and the order details are securely processed. After successfully placing an order, users receive a confirmation message, reassuring them that their meal is on its way.

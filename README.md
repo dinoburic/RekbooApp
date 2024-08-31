@@ -6,10 +6,12 @@ Rekboo is a user-friendly platform built to simplify your meal ordering experien
 
 ## 🍲Meals
 Whether you’re craving Italian, Bosnian, Indian, or any other type of cuisine, Rekboo offers a diverse menu to satisfy your tastes. The app is crafted to ensure a quick and reliable ordering process, making it easy for you to explore different culinary options and place your order with just a few clicks.
+
 ![Screenshot 2024-08-31 191502](https://github.com/user-attachments/assets/1b978edf-56fb-4af0-bf21-c834ede15fb3)
 
 ## 🛒Cart
 With the flexible cart functionality, users can easily add meals to their cart and adjust the quantity of each item according to their preferences. 
+
 ![cart](https://github.com/user-attachments/assets/5551e5f8-e011-4a61-8692-a8d65366e692)
 
 
